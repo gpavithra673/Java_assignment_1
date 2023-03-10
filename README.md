@@ -94,5 +94,52 @@ public class Main {
 ![image](https://user-images.githubusercontent.com/93427264/224378785-e7c5e8d3-241a-4e1b-9bf6-115134480ab4.png)
 ## 7.WRITE A PROGRAM TO CREATE A SIMPLE CALCULATOR.
 ### CODE:
+~~~
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.print("Enter your choice(1-Add,2-Sub,3-Mul,4-Div): ");
+        Scanner num= new Scanner(System.in);
+        Integer choice=num.nextInt();
+        System.out.print("Enter two numbers: ");
+        Scanner num1= new Scanner(System.in);
+        Integer a=num1.nextInt();
+        Scanner num2= new Scanner(System.in);
+        Integer b=num2.nextInt();
+        switch(choice){
+            case 1:{
+                int c=a+b;
+                System.out.print("Sum: "+c);
+                break;
+            }
+            case 2:{
+                int c=a-b;
+                System.out.print("Sub: "+c);
+                break;
+            }
+            case 3:{
+                int c=a*b;
+                System.out.print("Product: "+c);
+                break;
+            }
+            case 4:{
+                int c=a/b;
+                System.out.print("Divsion: "+c);
+                break;
+            }
+            default:{
+                System.out.print("Enter your choice within range(1-4)!!");
+                break;
+            }
+        }
+    }
+}
 
+~~~
 ### OUTPUT:
+![image](https://user-images.githubusercontent.com/93427264/224381174-a3af8da8-aca1-4599-a404-d6b3e9265a20.png)
+## 8.WRITE A JAVA PROGRAM TI PRINT MULTIPLICATION TABLE OF GIVEN NUMBER.
+### CODE:
+![image](https://user-images.githubusercontent.com/93427264/224382268-25fc5f93-9191-4162-b77a-08e4cbb30bf6.png)
+### OUTPUT:
+![image](https://user-images.githubusercontent.com/93427264/224382333-e5b62762-ca5f-485a-be22-88d24c3f0c10.png)
