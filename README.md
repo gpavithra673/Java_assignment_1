@@ -21,3 +21,78 @@
 ### OUTPUT:
 ![image](https://user-images.githubusercontent.com/93427264/224369769-34ca521d-06c4-40fa-8697-8b5ea866d1d4.png)
 ## 5.WRITE A JAVA PROGRAM TO FIND THE NUMBER OF DAYS IN A MONTH.
+### CODE: 
+~~~
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner num= new Scanner(System.in);
+        Integer a=num.nextInt();
+        switch (a){
+            case 1:{
+                System.out.print("January");
+                break;
+            }
+            case 2:{
+                System.out.print("february");
+                break;
+            }
+            case 3:{
+                System.out.print("March");
+                break;
+            }
+            case 4:{
+                System.out.print("April");
+                break;
+            }
+            case 5:{
+                System.out.print("May");
+                break;
+            }
+            case 6:{
+                System.out.print("june");
+                break;
+            }
+            case 7:{
+                System.out.print("july");
+                break;
+            }
+            case 8:{
+                System.out.print("August");
+                break;
+            }
+            case 9:{
+                System.out.print("September");
+                break;
+            }
+            case 10:{
+                System.out.print("October");
+                break;
+            }
+            case 11:{
+                System.out.print("november");
+                break;
+            }
+            case 12:{
+                System.out.print("December");
+                break;
+            }
+            default:{
+                System.out.print("Enter number between the given range(1-12)");
+                break;
+            }
+        }
+    }
+}
+~~~
+### OUTPUT:
+![image](https://user-images.githubusercontent.com/93427264/224378132-5b998210-0eab-4758-a200-510f94a89b4c.png)
+## 6.WRITE A JAVA CODE TO PRINT THE EVEN NUMBERS FROM 1-20.
+### CODE:
+![image](https://user-images.githubusercontent.com/93427264/224378712-f1430d81-6434-4764-b90c-10e11add39c3.png)
+### OUTPUT:
+![image](https://user-images.githubusercontent.com/93427264/224378785-e7c5e8d3-241a-4e1b-9bf6-115134480ab4.png)
+## 7.WRITE A PROGRAM TO CREATE A SIMPLE CALCULATOR.
+### CODE:
+
+### OUTPUT:
