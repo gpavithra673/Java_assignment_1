@@ -7,7 +7,25 @@
 ### 4.Print the output using "System.outprintln" to see the results.
 ### 5.The program completes it's execution and the output will be displayed eventually.
 ## CODE: 
-![image](https://user-images.githubusercontent.com/93427264/224060226-e9009cf0-3f0e-449f-81f2-61dc113bf536.png)
+```
+import java.util.Scanner;
+public class math_calc
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+        System.out.println("Addition = "+(a+b));
+        System.out.println("Subtraction = "+(a-b));
+        System.out.println("Multiply = "+(a*b));
+        System.out.println("Divide = "+(a/b));
+        System.out.println("Reminder = "+(a%b));
+    }
+}
+```
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/93427264/224060370-4627c454-6b7e-4960-a37f-0f1b746675cb.png)
 ## RESULT: 
