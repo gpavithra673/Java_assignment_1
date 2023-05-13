@@ -1,5 +1,6 @@
 # Java_assignment_1
-## AIM: WRITE A JAVA PROGRAM TO PRINT THE ARITHMETIC OPERATIONS
+## AIM: 
+### WRITE A JAVA PROGRAM TO PRINT THE ARITHMETIC OPERATIONS
 ## PROCEDURE:
 ### 1.Create the main class and declare the main method so that the program can be identified and start running.
 ### 2.In main method decalre two variables with appropriate data type declaration.
